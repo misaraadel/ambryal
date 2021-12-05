@@ -1,9 +1,4 @@
 $(document).ready(function () {
-    window.addEventListener("load", function () {
-        const loader = document.querySelector(".loader");
-        loader.className += " hidden";
-    });
-
     $(window).scroll(function () {
         if ($(this).scrollTop() > 700) {
             $(".scroll-top-btn").addClass('active-scroll');
